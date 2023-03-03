@@ -10,7 +10,8 @@ describe('Button', () => {
           backgroundColor: { control: 'color' },
         },
         label: 'button'
-      }
+      };
+      
   it('should render successfully', () => {
     const { baseElement } = render(<Button {...props}/>);
     expect(baseElement).toBeTruthy();
